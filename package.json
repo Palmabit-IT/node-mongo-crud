@@ -1,0 +1,46 @@
+{
+  "name": "node-mongo-crud",
+  "version": "1.0.0",
+  "description": "NodeJS MongoDB crud",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha ./test/*.js",
+    "test-travis": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec ./test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Palmabit-IT/node-mongo-crud.git"
+  },
+  "keywords": [
+    "express",
+    "starter",
+    "microservice"
+  ],
+  "author": "Palmabit <hello@palmabit.com>",
+  "contributors": [
+    {
+      "name": "Alessandro",
+      "email": "alessandro231@gmail.com"
+    },
+    {
+      "name": "Francesco",
+      "email": "falanga.fra@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Palmabit-IT/node-mongo-crud/issues"
+  },
+  "homepage": "https://github.com/Palmabit-IT/node-mongo-crud#readme",
+  "dependencies": {
+    "json2csv": "^3.6.3",
+    "mongojs": "^2.4.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "^1.0.0",
+    "istanbul": "*",
+    "mocha": "*"
+  }
+}
