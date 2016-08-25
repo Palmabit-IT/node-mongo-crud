@@ -33,8 +33,10 @@
   },
   "homepage": "https://github.com/Palmabit-IT/node-mongo-crud#readme",
   "dependencies": {
+    "async-each-series": "^1.1.0",
     "json2csv": "^3.6.3",
     "mongojs": "^2.4.0",
+    "q": "^1.4.1",
     "winston": "^2.2.0"
   },
   "devDependencies": {
