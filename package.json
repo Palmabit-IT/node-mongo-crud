@@ -1,6 +1,6 @@
 {
   "name": "node-mongo-crud",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "NodeJS MongoDB crud",
   "main": "index.js",
   "scripts": {
