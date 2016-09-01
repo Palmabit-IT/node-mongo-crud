@@ -34,6 +34,7 @@
   "homepage": "https://github.com/Palmabit-IT/node-mongo-crud#readme",
   "dependencies": {
     "async-each-series": "^1.1.0",
+    "dotenv": "^2.0.0",
     "json2csv": "^3.6.3",
     "mongojs": "^2.4.0",
     "q": "^1.4.1",
@@ -42,7 +43,9 @@
   "devDependencies": {
     "chai": "*",
     "chai-http": "^1.0.0",
+    "faker": "^3.1.0",
     "istanbul": "*",
-    "mocha": "*"
+    "mocha": "*",
+    "node-mocks-http": "^1.5.3"
   }
 }
