@@ -12,7 +12,7 @@ Add to your project's **.env** file the variables like in the example (**.env.sa
 
 ## Usage
 
-```
+```js
 var Crud = require('node-mongo-crud').Crud;
 
 var crud = new Crud('collection_name', 'result_key_name');

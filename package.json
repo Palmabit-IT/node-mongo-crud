@@ -12,9 +12,10 @@
     "url": "git+https://github.com/Palmabit-IT/node-mongo-crud.git"
   },
   "keywords": [
-    "express",
-    "starter",
-    "microservice"
+    "mongo",
+    "mongodb",
+    "crud",
+    "middleware"
   ],
   "author": "Palmabit <hello@palmabit.com>",
   "contributors": [
