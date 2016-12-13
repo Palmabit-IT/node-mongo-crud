@@ -41,6 +41,11 @@ crud.showResult(req, res);
 //Results are in **res['result_key_name']** attribute
 ```
 
+## Connection to database
+
+Put the `DB_` variables in your environment (see **.env.sample** file).
+If the `DB_CONNECT` is present with the full connection string, it will be used. Instead the host, db name and credentials variables will be used.
+
 ## Test
 
 ### Setup
